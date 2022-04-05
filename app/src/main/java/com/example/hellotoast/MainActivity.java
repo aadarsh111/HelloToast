@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(hellotoastchallenge.R.layout.activity_main);
         mShowCount=(TextView)findViewById(R.id.show_count);
     }
 
